@@ -16,9 +16,31 @@ object Main extends App {
   //Question:
   // Write a program which repeatedly prompts the user for an integer.
   // If the integer is even, print the integer.
-  // If the integer is odd, don’t print anything.
+  // If the integer is odd, print shame on you.
   // Exit the program if the user enters the integer 33.
   def myMethod() = ???
 
+  /**
+    * Given a word and a list of possible anagrams, select the correct sublist.
+    *
+    * Given "listen" and a list of candidates like "enlists" "google" "inlets" "banana"
+    * the program should return a list containing "inlets".
+    */
+  def anagram() = ???
+
+  /**
+    * Given a phrase, count the occurrences of each word in that phrase.
+    *
+    * For example for the input "olly olly in come free"
+    *
+    * olly: 2
+    * in: 1
+    * come: 1
+    * free: 1
+    */
+  def wc() = ???
 }
-// Q: Design a class which represents a rectangle, and provides calculateArea method.
+/**
+  * Class design
+  * Q: Design classes which represents a rectangle, Circle and Square and provides calculateArea method.
+  */
