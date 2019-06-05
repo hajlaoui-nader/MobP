@@ -1,5 +1,7 @@
 package com.stuart.first
 
+import scala.math.BigInt
+
 // this is a main class, it may be the project entry point
 // what we need to memorize here is the second part of the object declaration (extends App)
 object Main extends App {
@@ -9,6 +11,8 @@ object Main extends App {
   val message = ???
   // what is var ?
   var message2 = ???
+
+  // scala common types ?? int, char, bool, float, double, long, string, list, map...
 
   // factorial(x) = x * x-1 * x-2 * ... * (fact(0) == 1)
   def factorial(x: BigInt): BigInt = ???
@@ -26,7 +30,7 @@ object Main extends App {
     * Given "listen" and a list of candidates like "enlists" "google" "inlets" "banana"
     * the program should return a list containing "inlets".
     */
-  def anagram() = ???
+  def anagram(input: String, candidates: List[String]): List[String] = ???
 
   /**
     * Given a phrase, count the occurrences of each word in that phrase.
@@ -38,7 +42,7 @@ object Main extends App {
     * come: 1
     * free: 1
     */
-  def wc() = ???
+  def wc(phrase: String): Map[String, Int] = ???
 }
 /**
   * Class design
