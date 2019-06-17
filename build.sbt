@@ -6,3 +6,5 @@ scalaVersion := "2.12.8"
 
 libraryDependencies += "junit" % "junit" % "4.10" % Test
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % Test
+libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.14.0" % Test
+
