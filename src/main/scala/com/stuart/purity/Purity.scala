@@ -1,10 +1,10 @@
 package com.stuart.purity
 
 /**
-  * our goal here is to write pure function
-  * A pure function is side-effect free, plus the result does not depend on anything other than its inputs.
-  * For a given input, the only effect of a pure function is the output it produces — there are no other effects.
-  */
+ * our goal here is to write pure function
+ * A pure function is side-effect free, plus the result does not depend on anything other than its inputs.
+ * For a given input, the only effect of a pure function is the output it produces — there are no other effects.
+ */
 object Purity {
 
   /**
@@ -20,9 +20,16 @@ object Purity {
   def divide(value: Int, divider: Int): Double = value / divider
 
   /**
-    * write a pure function for division
-    */
+   * write a pure function for division 🙌
+   */
   def divideSafe(value: Int, divider: Int) =
     ???
+
+  /**
+   * working with legacy 🤔
+   */
+  def callLegacy() = {
+    val x = Legacy.aLegacyMethod(0)
+  }
 
 }
